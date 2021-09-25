@@ -19,3 +19,8 @@
     font-weight: bolder;
     border-radius: 5px;
 }
+
+.btn-icon {
+    margin-right: 10px;
+    color: brown;
+}

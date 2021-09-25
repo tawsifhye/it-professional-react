@@ -1,9 +1,12 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAdjust, faDatabase, faFileDownload } from '@fortawesome/free-solid-svg-icons'
 import './Person.css'
 
 const Person = (props) => {
     console.log(props);
     const {name, role, age, country, Salary, image} = props.person
+    const btnIcon = <FontAwesomeIcon icon={faFileDownload} />
     // console.log(name);
     return (
 
@@ -14,7 +17,7 @@ const Person = (props) => {
             <h3>Age: {age}</h3>
             <h3>Country: {country}</h3>
             <h3>Salary: {Salary}</h3>
-            <button>Add to Team</button>
+            <button><span className='btn-icon'>{btnIcon}</span>Download Resume</button>
         </div>        
     );
 };

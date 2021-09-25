@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Inventory from '../Inventory/Inventory';
 import Person from '../Person/Person';
 import './Container.css'
 
@@ -17,7 +18,9 @@ const Container = () => {
                     persons.map( person => <Person key={person.id} person={person}></Person>)
                 }
             </div>
-            <div></div>
+            <div>
+                <Inventory></Inventory>
+            </div>
         </div>
     );
 };
