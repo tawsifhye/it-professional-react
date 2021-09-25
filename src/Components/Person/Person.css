@@ -11,3 +11,11 @@
     height: 200px;
     border-radius: 50%;
 }
+
+.person button {
+    width: 200px;
+    background-color: rgb(158, 171, 184);
+    line-height: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
