@@ -1,0 +1,13 @@
+.person {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+    color: white;
+}
+
+.person img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}

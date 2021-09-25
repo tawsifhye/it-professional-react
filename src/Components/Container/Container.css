@@ -2,3 +2,11 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
+
+.person-container {
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 10px;
+}
