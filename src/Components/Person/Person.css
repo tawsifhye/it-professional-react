@@ -20,6 +20,14 @@
     border-radius: 5px;
 }
 
+.person button:hover {
+    cursor: pointer;
+}
+
+.person button:active {
+    background-color: rgb(122, 87, 87);
+}
+
 .btn-icon {
     margin-right: 10px;
     color: brown;

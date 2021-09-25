@@ -16,8 +16,8 @@ const Person = (props) => {
             <h3>Role: {role}</h3>
             <h3>Age: {age}</h3>
             <h3>Country: {country}</h3>
-            <h3>Salary: {Salary}</h3>
-            <button><span className='btn-icon'>{btnIcon}</span>Download Resume</button>
+            <h3>Salary:$ {Salary}</h3>
+            <button className='perosn-btn'><span className='btn-icon'>{btnIcon}</span>Download CV</button>
         </div>        
     );
 };

@@ -1,9 +1,11 @@
 import React from 'react';
+import './Inventory.css'
 
 const Inventory = () => {
     return (
-        <div>
-           <h2 style={{color: 'white', textAlign: 'center'}}>My Inventory</h2> 
+        <div className='inventory'>
+           <h2>CV Added: </h2> 
+           <h2>Total Cost:$</h2>
         </div>
     );
 };
