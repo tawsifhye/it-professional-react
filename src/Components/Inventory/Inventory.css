@@ -2,3 +2,19 @@
     padding-left: 10px;
     color: white;
 }
+
+.inventory button {
+    width: 200px;
+    background-color: rgb(158, 171, 184);
+    line-height: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.inventory button:hover {
+    cursor: pointer;
+}
+
+.inventory button:active {
+    background-color: rgb(122, 87, 87);
+}

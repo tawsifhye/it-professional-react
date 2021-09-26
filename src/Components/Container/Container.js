@@ -13,8 +13,10 @@ const Container = () => {
     },[]);
 
     const handleAddToInventory = (person) => {
-        const newInventory = [...inventory, person.name];
-        setInventory(newInventory);
+        if(inventory.indexOf(person) === -1){
+            const newInventory = [...inventory, person];
+            setInventory(newInventory);
+        }
     };
     return (
         <div className='container'>
