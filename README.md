@@ -1,6 +1,6 @@
 # IT Professionals
 ## Live Site Link
-Open [https://app.netlify.com/sites/assignment8-react/overview](https://app.netlify.com/sites/assignment8-react/overview) to view it in the browser.
+Open [https://assignment8-react.netlify.app/](https://assignment8-react.netlify.app/) to view it in the browser.
 
 ### About this project
 * This is a simple React Project
