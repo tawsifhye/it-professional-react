@@ -18,3 +18,17 @@
 .inventory button:active {
     background-color: rgb(122, 87, 87);
 }
+
+@media only screen and (max-width: 600px) {
+    .inventory {
+        padding: 10px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .inventory {
+        padding: 10px;
+    }
+}
