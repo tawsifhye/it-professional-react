@@ -1,10 +1,10 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAdjust, faDatabase, faFileDownload } from '@fortawesome/free-solid-svg-icons'
+import { faFileDownload } from '@fortawesome/free-solid-svg-icons'
 import './Person.css'
 
 const Person = (props) => {
-    console.log(props);
+    // console.log(props);
     const {name, role, age, country, Salary, image} = props.person
     const btnIcon = <FontAwesomeIcon icon={faFileDownload} />
     // console.log(name);
@@ -17,7 +17,7 @@ const Person = (props) => {
             <h3>Age: {age}</h3>
             <h3>Country: {country}</h3>
             <h3>Salary:$ {Salary}</h3>
-            <button className='perosn-btn'><span className='btn-icon'>{btnIcon}</span>Download CV</button>
+            <button onClick={ () => props.handleAddToInventory(props.person)} className='perosn-btn'><span className='btn-icon'>{btnIcon}</span>Download CV</button>
         </div>        
     );
 };
